@@ -1,13 +1,10 @@
 import os
 
-import pygame as pygame
 import sys
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
-from pyuic.uic.properties import QtCore, QtWidgets
 from examples.calculator.calc_show import ticWindow
-dbclock = pygame.time.Clock()
 
 from nodeeditor.utils import loadStylesheets
 from nodeeditor.node_editor_window import NodeEditorWindow
